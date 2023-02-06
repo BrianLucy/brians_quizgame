@@ -10,8 +10,9 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 let questions = [];
+//https://brianlucy.github.io/brians_quizgame/assets/html/assets/questions.json
 
-fetch('../questions.json')
+fetch('../js/questions.json')
     .then((res) => {
         return res.json();
     })
